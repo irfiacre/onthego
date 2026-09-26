@@ -84,3 +84,12 @@ var stringLen int = utf8.RuneCountInString(string)
 
 #### Slices
 Just wrappers under an array.
+
+#### Maps
+- A set of key value pairs, essentially a dictionary in Python or an object in Typescript.
+- When looking for a non existent key, the map return the default value for the type of that map.
+- A map always returns something.
+
+#### Strings & Runes
+- Strings are immutable in GO.
+- 
